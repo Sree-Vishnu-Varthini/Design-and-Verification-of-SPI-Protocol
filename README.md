@@ -1,4 +1,4 @@
-# SPI Protocol Design and Verification using SystemVerilog
+# SPI Master-Slave Protocol Design and Functional Verification in SystemVerilog
 
 ## 🧪 Project Overview
 
