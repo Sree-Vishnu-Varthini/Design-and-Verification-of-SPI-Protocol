@@ -51,18 +51,9 @@ This project implements and verifies a **Serial Peripheral Interface (SPI)** pro
 
 ---
 
-## Testbench Components
+## RTL Schematic
 
-| Component   | Purpose                          |
-|-------------|---------------------------------|
-| **Driver**  | Drive stimulus to DUT            |
-| **Monitor** | Observe DUT output               |
-| **Generator** | Create randomized transactions |
-| **Scoreboard** | Verify data correctness        |
-| **Environment** | Integrate and control all components |
-| **Transaction** | Defines data for one operation |
-| **Interface**   | Declare signals connecting DUT and testbench |
-| **Top**         | Instantiate DUT and environment; start simulation |
+![RTL Schematic](https://github.com/user-attachments/assets/b5c05ba8-af8f-4cab-915e-e6023637a2a4)
 
 ---
 
@@ -86,6 +77,21 @@ This project implements and verifies a **Serial Peripheral Interface (SPI)** pro
   - **Driver**: Applies inputs to the DUT and logs what was sent.
   - **Monitor**: Captures outputs from the DUT.
   - **Scoreboard**: Compares sent vs received values to check correctness.
+
+---
+
+## Testbench Components
+
+| Component   | Purpose                          |
+|-------------|---------------------------------|
+| **Driver**  | Drive stimulus to DUT            |
+| **Monitor** | Observe DUT output               |
+| **Generator** | Create randomized transactions |
+| **Scoreboard** | Verify data correctness        |
+| **Environment** | Integrate and control all components |
+| **Transaction** | Defines data for one operation |
+| **Interface**   | Declare signals connecting DUT and testbench |
+| **Top**         | Instantiate DUT and environment; start simulation |
 
 ---
 
