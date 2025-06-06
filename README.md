@@ -4,7 +4,7 @@
 
 This project implements and verifies a **Serial Peripheral Interface (SPI)** protocol using SystemVerilog. It includes RTL design for both **SPI Master and SPI Slave**, along with a fully modular, class-based **testbench architecture**. The testbench follows modern verification practices using transactions, mailboxes, virtual interfaces, and event synchronization.
 
-**EDA Playground Link** - [SPI Protocol]()
+**EDA Playground Link** - [SPI Protocol](https://edaplayground.com/x/qkJV)
 
 ---
 ## 🔄 SPI Protocol Overview
@@ -100,10 +100,8 @@ This project implements and verifies a **Serial Peripheral Interface (SPI)** pro
 
 ## Output
 
+![Output 1](https://github.com/user-attachments/assets/58b111a8-187e-4d2b-95e9-7e7911850e26)
 
-![Output 1]()
-
-![Output2]()
 
 ---
 
